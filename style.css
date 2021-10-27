@@ -1,0 +1,89 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+body {
+	background-color: #086788;
+	font-family: Oswald;
+	color: #69585F;
+}
+h1 {
+	font-size: 16;
+	color: #69585F;
+}
+p{
+	line-height: 1.5;
+	font-family: Helvetica;
+	font-size: 9;
+}
+h2 {
+	font-size: 12;
+	letter-spacing: 3px;
+}
+a {
+	color: #FF5E5B;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+#photo {
+	width: 120px; 
+	height: 120px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.cardwhite {
+	background-color: white;
+	border-radius: 2px;
+	padding: 10px;
+	box-shadow: 0px 0px 10px rgba(256,256,256,1);
+	margin: 15px 30px;
+
+}
+.container {
+  width: 700px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+.bouton {
+	background-color: #FF5E5B;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 17px 10px;
+	border-radius: 3px;
+	
+}
+.text-bouton{
+	margin-top: 20px;
+}
+.bouton:hover {
+	background-color: #7f2f2d
+}
+.text-center{
+	text-align: center;
+}
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+}
+#réseaux{
+	margin-top: 20px;
+}
